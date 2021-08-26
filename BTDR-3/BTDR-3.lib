@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BTDR-3
+#
+DEF BTDR-3 IC 0 40 Y N 1 L N
+F0 "IC" 0 50 50 H V L BNN
+F1 "BTDR-3" 0 -50 50 H V L BNN
+F2 "BTDR-3" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+T 0 -300 -275 40 0 0 0 +5v Normal 0 C B
+T 0 -300 275 40 0 0 0 1A Normal 0 C T
+T 0 -100 275 40 0 0 0 1B Normal 0 C T
+T 0 100 275 40 0 0 0 2A Normal 0 C T
+T 0 300 275 40 0 0 0 2B Normal 0 C T
+T 0 -375 0 40 0 0 0 IN Normal 0 L C
+T 0 375 150 40 0 0 0 OUT1 Normal 0 R C
+T 0 375 -150 40 0 0 0 OUT2 Normal 0 R C
+T 0 0 -275 40 0 0 0 pGND Normal 0 C B
+T 0 200 -275 40 0 0 0 sGND Normal 0 C B
+S -400 -300 400 300 0 0 10 f
+X ~ 3 -500 0 100 R 40 40 0 0 B 
+X ~ 6 500 150 100 L 40 40 0 0 B 
+X ~ 5 500 -150 100 L 40 40 0 0 B 
+X ~ 1 -300 -400 100 U 40 40 0 0 B 
+X ~ 7 -300 400 100 D 40 40 0 0 B 
+X ~ 8 -100 400 100 D 40 40 0 0 B 
+X ~ 9 100 400 100 D 40 40 0 0 B 
+X ~ 10 300 400 100 D 40 40 0 0 B 
+X ~ 2 0 -400 100 U 40 40 0 0 B 
+X ~ 4 200 -400 100 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
