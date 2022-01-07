@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# StompLFO
+#
+DEF StompLFO U 0 40 Y Y 1 F N
+F0 "U" 0 -350 50 H V C CNN
+F1 "StompLFO" 0 300 50 H V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+DRAW
+S -400 250 400 -250 0 1 0 f
+X +5V 1 -500 150 100 R 50 50 1 1 I
+X Offset 2 -500 50 100 R 50 50 1 1 I
+X PDM_Out 3 -500 -50 100 R 50 50 1 1 O
+X Tap 4 -500 -150 100 R 50 50 1 1 I
+X Depth 5 500 -150 100 L 50 50 1 1 I
+X Waveform 6 500 -50 100 L 50 50 1 1 I
+X Freq 7 500 50 100 L 50 50 1 1 I
+X Gnd 8 500 150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
